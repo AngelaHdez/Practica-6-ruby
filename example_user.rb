@@ -1,5 +1,5 @@
 class User
-	attr_accessor :name, :email
+	attr_accessor :name, :email #creo el getter y el setter 
 
 	def initialize(attributes = {})
 		@name = attributes[:name]
